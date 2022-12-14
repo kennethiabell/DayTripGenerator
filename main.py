@@ -11,9 +11,9 @@
 
 #Lists
 destination_list = ["Tokyo", "Milan", "New York", "Los Angeles"]
-restaurant_list = [ "The Golden Palace", "local fare", "a lavish rooftop picnic at dusk"]
-transportation_list = ["a short stroll", "horse-drawn carriage", "limousine"]
-entertainment_list = ["The Night Bizaar", "The Festival of Lights", "a quiet evening for two"]
+restaurant_list = [ "Golden Palace", "Drunken Clam", "Purple Pheonix"]
+transportation_list = ["A short stroll", "A horse-drawn carriage", "Our limousine service"]
+entertainment_list = ["Night Bizaar", "Festival of Lights", "Louvre Immersive Experience"]
 
 import random
 destination = random.choice(destination_list)
@@ -21,3 +21,9 @@ restaurant = random.choice(restaurant_list)
 transportation = random.choice(transportation_list)
 entertainment = random.choice(entertainment_list)
 
+print (destination)
+print (restaurant)
+print (transportation)
+print (entertainment)
+
+print(f"The Day Trip Generator has selected the perfect cozy getaway! You will be wisked away to the beautiful city of {destination}! Fine dining will follow at the illustrious {restaurant} and your entertrainment for the evening will be taking in all of the sights, sounds, and scents of the annual {entertainment} - a local favorite! Finally, commute in style! Your travel for the evening will be {transportation}. Is this your perfect getaway? ")
